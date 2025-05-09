@@ -7,6 +7,7 @@ import { ThemedView } from '@/components/ThemedView';
 import SocialView from '@/components/SocialView';
 
 export default function TabTwoScreen() {
+   document.title = "E6B Flight Pro"
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
