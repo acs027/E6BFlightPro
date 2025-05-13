@@ -30,24 +30,28 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
 
-      {/*
-      <ThemedView style={styles.githubLinkContainer}>
+      <ThemedView>
         <Text
           style={{ color: "#1e90ff" }} // or your theme's link color
-          onPress={() => Linking.openURL("")}
+          onPress={() =>
+            Linking.openURL(
+              "https://apps.apple.com/tr/app/e6b-flight-pro/id6743019639"
+            )
+          }
         >
-          App Store
+          View in App Store
         </Text>
-         <Text
+      </ThemedView>
+      <ThemedView>
+        <Text
           style={{ color: "#1e90ff" }} // or your theme's link color
           onPress={() =>
             Linking.openURL("https://github.com/acs027/FlightComputer")
           }
         >
-          GitHub
-        </Text> 
+          View in GitHub
+        </Text>
       </ThemedView>
-      */}
 
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">
