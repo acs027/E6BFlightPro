@@ -155,10 +155,10 @@ const styles = StyleSheet.create({
     marginTop: 12,
   },
   galleryImage: {
-    width: 220,
-    height: 420,
+    width: 215,
+    height: 466,
     marginRight: 12,
-    borderRadius: 12,
-    backgroundColor: "#ccc", // Optional: fallback background
+    borderRadius: 22,
+    backgroundColor: "rgba(204, 204, 204, 0)", // Optional: fallback background
   },
 });
