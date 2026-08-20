@@ -8,11 +8,11 @@ import { ThemedView } from "@/components/ThemedView";
 export default function HomeScreen() {
   document.title = "E6B Flight Pro";
   const imageSources = [
-    require("@/assets/images/screenshot1.jpeg"),
-    require("@/assets/images/screenshot2.jpeg"),
-    require("@/assets/images/screenshot3.jpeg"),
-    require("@/assets/images/screenshot4.jpeg"),
-    require("@/assets/images/screenshot5.jpeg"),
+    require("@/assets/images/screenshot1.jpg"),
+    require("@/assets/images/screenshot2.jpg"),
+    require("@/assets/images/screenshot3.jpg"),
+    require("@/assets/images/screenshot4.jpg"),
+    require("@/assets/images/screenshot5.jpg"),
   ];
 
   return (
